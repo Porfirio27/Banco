@@ -17,6 +17,9 @@ while True:
 
     opcao = input(menu)
 
+    conta = input("Digite sua conta:")
+    senha = getpass("Digite sua senha:")
+    
     if opcao == "d":
         valor = float(input('Informe o valor do depósito: '))
 
